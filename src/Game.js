@@ -8,6 +8,7 @@ Piggy.Game = function(game){
 };
 Piggy.Game.prototype = {
 	create: function(){
+		this.stage.backgroundColor = '#ACF4F5';
 		// start the physics engine
 		//this.physics.startSystem(Phaser.Physics.ARCADE);
 		// set the global gravity

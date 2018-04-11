@@ -6,7 +6,7 @@ Piggy.Preloader = function(game){
 Piggy.Preloader.prototype = {
 	preload: function(){
 		// set background color and preload image
-		//this.stage.backgroundColor = '#B4D9E7';
+		this.stage.backgroundColor = '#B4D9E7';
 		//this.preloadBar = this.add.sprite((Piggy.GAME_WIDTH-311)/2, (Piggy.GAME_HEIGHT-27)/2, 'preloaderBar');
 		//this.load.setPreloadSprite(this.preloadBar);
 		// load images
